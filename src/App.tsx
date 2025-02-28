@@ -47,21 +47,21 @@ const projects: Project[] = [
   {
     title: "Diversity Blends",
     description: "A modern e-commerce platform showcasing diverse culinary products and experiences.",
-    image: "https://diversityblends.co.za/wp-content/uploads/2024/02/diversity-blends-screenshot.jpg",
+    image: "/src/assets/diversity-blends-screenshot.png",
     link: "https://diversityblends.co.za/",
     tech: ["React", "Node.js", "WooCommerce"]
   },
   {
     title: "Design Central",
     description: "A portfolio website for a creative design agency featuring their work and services.",
-    image: "https://designcentral.co.za/wp-content/uploads/2024/02/design-central-screenshot.jpg",
+    image: "/src/assets/design-central-screenshot.png",
     link: "https://designcentral.co.za/",
     tech: ["React", "Tailwind CSS", "Framer Motion"]
   },
   {
     title: "Javelin Sports",
     description: "A dynamic sports equipment and apparel e-commerce platform.",
-    image: "https://javelin-sports.co.za/wp-content/uploads/2024/02/javelin-sports-screenshot.jpg",
+    image: "/src/assets/javelin-sports-screenshot.png",
     link: "https://javelin-sports.co.za/",
     tech: ["React", "Node.js", "Stripe"]
   }
@@ -241,7 +241,7 @@ function Home() {
               </div>
             </div>
             <motion.div 
-              className="flex justify-center"
+              className="flex justify-start md:justify-center"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
